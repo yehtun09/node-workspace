@@ -11,7 +11,6 @@ const number = sum(3,5);
 const number_minus = minus(3,5)
 console.log('y is ', y);
 console.log(number ,'and', number_minus);
-
  
 // import js
 const add = require('./import');
