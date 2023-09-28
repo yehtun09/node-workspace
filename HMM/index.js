@@ -19,7 +19,8 @@ const path = require('path');
 
 // const templateOverview = fs.readFileSync(path.join(__dirname, 'template', 'index.html'), 'utf-8');
 
-const templateOverview = fs.readFileSync(`${__dirname}/template/template-overview.html`, 'utf-8');
+// const templateOverview = fs.readFileSync(`${__dirname}/template/template-overview.html`, 'utf-8');
+const templateOverview = fs.readFileSync(`${__dirname}/template/amazed.html`, 'utf-8');
 
 const productJson = `${__dirname}/data/dev/devData/`
 const data = fs.readFileSync(`${productJson}products.json`, 'utf-8');
